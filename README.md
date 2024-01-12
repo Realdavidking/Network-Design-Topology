@@ -1,16 +1,45 @@
-# Network Design Topology
+# Creating a Virtual Private Network
 <h1>Network Design</h1>
 
 <p align="center">
 Topology: <br/>
-<img src="https://imgur.com/a/siXG0GI" height="80%" width="80%" alt="Virtual Cloud Network"/>
+<img src="https://i.imgur.com/9NbTunt.png" height="80%" width="80%" alt="Virtual Cloud Network"/>
 
 <br />
 <br />
 
 <h2>Description</h2>
-In this Project I set up a virtual private cloud network utilizing Microsoft Azure Services. First I established a Resource Group, and created a network security group (King Security) to protect the virtual network.
-Deploy a virtual computer to your cloud network.
+In this Project I designed and set up a virtual private cloud network utilizing Microsoft Azure Services. This Network is secured by firewall and contains a Virtual Machine acting as a jumpbox that connects to 2 other virtual machines (Web-1 & Web-2) through SSH.  
+
+<h2>Languages and Utilities Used</h2>
+
+- <b>Linux</b> 
+- <b>Microsoft Azure services</b>
+- <b>Terminal<b>
+
+<h2>Environments Used </h2>
+
+- <b>Mac OS</b> (21H2)
+
+<h2>Program walk-through:</h2>  
+
+First I established a Resource Group, and created a network security group (King Security) to protect the virtual network. After that I proceeded to deploy a virtual machine (Jumpbox) to the cloud network.
+
+
+
+
+
+
+
+
+Then I created 2 Virtual Machines (Web 1 & Web 2) to connect to the Jumpbox by SSH.
+
+
+
+
+
+
+
 Install and run containers using Docker.
 Set up Ansible connections to VMs inside your VNet.
 Write Ansible playbooks to configure VMs.
@@ -31,14 +60,9 @@ Security Configuration: In this activity, you'll configure the load balancer and
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
 
-<h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
