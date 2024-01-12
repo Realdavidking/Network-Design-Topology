@@ -25,16 +25,33 @@ In this Project I designed and set up a virtual private cloud network utilizing 
 
 First I established a Resource Group, and created a network security group (King Security) to protect the virtual network. 
 
+<p align="center">
+Creating Resource Group: <br/>
+<img src="https://i.imgur.com/YJ8gaVh.png" height="80%" width="80%" alt="Create a Resource"/>
 
+<br />
+<br />
 
 
 Secondly I used Terminal to generate public SSH Key.
 
+<p align="center">
+Generating SSH Key: <br/>
+<img src="https://i.imgur.com/kyMKdGE.png" height="80%" width="80%" alt="SSH"/>
+
+<br />
+<br />
 
 
 
 Next I proceeded to deploy a virtual machine (Jumpbox) to the cloud network.
 
+<p align="center">
+Jumpbox Creation: <br/>
+<img src="https://i.imgur.com/8AQhVyA.png" height="80%" width="80%" alt="SSH"/>
+
+<br />
+<br />
 
 
 
@@ -42,6 +59,12 @@ Next I proceeded to deploy a virtual machine (Jumpbox) to the cloud network.
 After that I created 2 Virtual Machines to act as web servers (Web 1 & Web 2) that connect to the Jumpbox by SSH. 
 
 
+<p align="center">
+Server Creation: <br/>
+<img src="https://i.imgur.com/4NkFxJz.png" height="80%" width="80%" alt="SSH"/>
+
+<br />
+<br />
 
 
 
