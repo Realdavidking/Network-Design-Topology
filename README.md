@@ -39,7 +39,15 @@ Next I proceeded to deploy a virtual machine (Jumpbox) to the cloud network.
 
 
 
-After that I created 2 Virtual Machines (Web 1 & Web 2) to connect to the Jumpbox by SSH.
+After that I created 2 Virtual Machines to act as web servers (Web 1 & Web 2) that connect to the Jumpbox by SSH. 
+
+
+
+
+
+
+
+To allow this connection I added a security group rule that allows SSH connections only from my current IP and connects to my virtual machine for management.
 
 
 
@@ -53,11 +61,8 @@ Write Ansible playbooks to configure VMs.
 Create a load balancer on the Azure platform.
 Create firewall and load balancer rules to allow traffic to the correct virtual machines.
 
-Virtual Networking: In this activity, you will set up a resource group and a cloud network using the Azure Portal.
-Security Groups: In this activity, you will create a network security group to control access to any resources in the subnet that you created in the last activity.
-Virtual Computing: In this activity, you will set up the first three virtual machines inside your cloud network, protected by your network security group. You will use one of these machines as a jump box to access your cloud network, and the other machines will be web servers. 
 
-Cloud Architecture: In this option, you'll choose the best network options for each of several scenarios.
+
 Jump Box Administration: In this activity, you will configure a virtual machine on your network as a jump box that you will connect to and use to configure other machines that will be added to the network. You will need to create a security group rule to allow SSH connections only from your current IP address and connect to your new virtual machine for management.
 Containers: In this activity, you will configure your jump box to run Docker containers and then install a container.
 Provisioners: In this activity, you will launch a new VM from the Azure portal that can only be accessed using a new SSH key from the container running inside your jump box.
