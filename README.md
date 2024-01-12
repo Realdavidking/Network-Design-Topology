@@ -9,7 +9,7 @@ Topology: <br/>
 <br />
 
 <h2>Description</h2>
-In this Project I designed and set up a virtual private cloud network utilizing Microsoft Azure Services. This Network is secured by firewall and contains a Virtual Machine acting as a jumpbox that connects to 2 other virtual machines (Web-1 & Web-2) through SSH.  
+In this Project I designed and set up a virtual private cloud network utilizing Microsoft Azure Services. This Network is secured by firewall and contains a Virtual Machine acting as a jumpbox that connects to 2 other Virtual Machines acting as Servers (Web-1 & Web-2) through SSH.  
 
 <h2>Languages and Utilities Used</h2>
 
