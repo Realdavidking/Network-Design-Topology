@@ -3,13 +3,13 @@
 
 <p align="center">
 Topology: <br/>
-<img src="https://imgur.com/a/siXG0GI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/siXG0GI" height="80%" width="80%" alt="Virtual Cloud Network"/>
+
 <br />
 <br />
 
 <h2>Description</h2>
-Set up a virtual private cloud network.
-Protect your cloud network with a firewall.
+In this Project I set up a virtual private cloud network utilizing Microsoft Azure Services. First I established a Resource Group, and created a network security group (King Security) to protect the virtual network.
 Deploy a virtual computer to your cloud network.
 Install and run containers using Docker.
 Set up Ansible connections to VMs inside your VNet.
