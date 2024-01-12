@@ -21,18 +21,25 @@ In this Project I designed and set up a virtual private cloud network utilizing 
 
 - <b>Mac OS</b>
 
-<h2>Program walk-through:</h2>  
+<h2>Project walk-through:</h2>  
 
-First I established a Resource Group, and created a network security group (King Security) to protect the virtual network. After that I proceeded to deploy a virtual machine (Jumpbox) to the cloud network.
-
-
+First I established a Resource Group, and created a network security group (King Security) to protect the virtual network. 
 
 
 
 
+Secondly I used Terminal to generate public SSH Key.
 
 
-Then I created 2 Virtual Machines (Web 1 & Web 2) to connect to the Jumpbox by SSH.
+
+
+Next I proceeded to deploy a virtual machine (Jumpbox) to the cloud network.
+
+
+
+
+
+After that I created 2 Virtual Machines (Web 1 & Web 2) to connect to the Jumpbox by SSH.
 
 
 
