@@ -19,7 +19,7 @@ In this Project I designed and set up a virtual private cloud network utilizing 
 
 <h2>Environments Used </h2>
 
-- <b>Mac OS</b> (21H2)
+- <b>Mac OS</b>
 
 <h2>Program walk-through:</h2>  
 
