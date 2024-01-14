@@ -16,6 +16,8 @@ In this Project I designed and set up a virtual private cloud network utilizing 
 - <b>Linux</b> 
 - <b>Microsoft Azure services</b>
 - <b>Terminal<b>
+- <b>Docker<b>
+- <b>Ansible<b>
 
 <h2>Environments Used </h2>
 
@@ -23,7 +25,7 @@ In this Project I designed and set up a virtual private cloud network utilizing 
 
 <h2>Project walk-through:</h2>  
 
-First I established a Resource Group, and created a network security group (King Security) to protect the virtual network. 
+First I established a Resource Group, and created a network security group (King Security) with rule to block all connections to protect the virtual network. 
 
 <p align="center">
 Creating Resource Group: <br/>
@@ -66,11 +68,56 @@ Server Creation: <br/>
 <br />
 <br />
 
+Managing & Administrating Web servers Through SSH.
+
+To allow Jumpbox to connect to Web-1 and Web-2 Virtual Machines, I added a security group rule that allows SSH connections only from my current IP for management.
+
+
+<p align="center">
+SSH Security Rule: <br/>
+<img src="https://i.imgur.com/9grLrCz.png" height="80%" width="80%" alt="SSH"/>
+
+<br />
+<br />
+
+In order to manage Servers effectively I SSHed into the Jumpbox and proceeded to install docker and pull container.
+
+
+<p align="center">
+Install Docker: <br/>
+<img src="https://i.imgur.com/vfN5yKw.png" height="80%" width="80%" alt="SSH"/>
+
+<br />
+<br />
+
+
+<p align="center">
+Pulling Container: <br/>
+<img src="https://i.imgur.com/QnnWfZL.png" height="80%" width="80%" alt="SSH"/>
+
+<br />
+<br />
+
+
+Lastly I ran container to verify everything was set up properly.
+
+
+<p align="center">
+Running container: <br/>
+<img src="https://i.imgur.com/fkQgAVO.png" height="80%" width="80%" alt="SSH"/>
+
+<br />
+<br />
 
 
 
 
-To allow this connection I added a security group rule that allows SSH connections only from my current IP and connects to my virtual machine for management.
+
+
+
+
+
+
 
 
 
@@ -95,40 +142,6 @@ Security Configuration: In this activity, you'll configure the load balancer and
 <br />
 
 
-
-
-
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
