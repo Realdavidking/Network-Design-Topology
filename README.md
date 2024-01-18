@@ -16,8 +16,7 @@ In this Project I designed and set up a virtual private cloud network utilizing 
 - <b>Linux</b> 
 - <b>Microsoft Azure services</b>
 - <b>Terminal<b>
-- <b>Docker<b>
-- <b>Ansible<b>
+- <b>Draw.io<b>
 
 <h2>Environments Used </h2>
 
@@ -68,9 +67,8 @@ Server Creation: <br/>
 <br />
 <br />
 
-Managing & Administrating Web servers Through SSH.
 
-To allow Jumpbox to connect to Web-1 and Web-2 Virtual Machines, I added a security group rule that allows SSH connections only from my current IP for management.
+To allow Jumpbox to connect to Web-1 and Web-2 Virtual Machines, I added a security group rule that allows SSH connections only from my current IP.
 
 
 <p align="center">
@@ -79,6 +77,7 @@ SSH Security Rule: <br/>
 
 <br />
 <br />
+
 
 In order to manage Servers effectively I SSHed into the Jumpbox and proceeded to install docker and pull container.
 
@@ -125,21 +124,14 @@ Running container: <br/>
 
 
 
-Install and run containers using Docker.
-Set up Ansible connections to VMs inside your VNet.
-Write Ansible playbooks to configure VMs.
-Create a load balancer on the Azure platform.
-Create firewall and load balancer rules to allow traffic to the correct virtual machines.
 
 
 
-Jump Box Administration: In this activity, you will configure a virtual machine on your network as a jump box that you will connect to and use to configure other machines that will be added to the network. You will need to create a security group rule to allow SSH connections only from your current IP address and connect to your new virtual machine for management.
-Containers: In this activity, you will configure your jump box to run Docker containers and then install a container.
-Provisioners: In this activity, you will launch a new VM from the Azure portal that can only be accessed using a new SSH key from the container running inside your jump box.
-Ansible Playbooks: In this activity, you will create an Ansible playbook that installs Docker and configures a VM with the DVWA web app.
-Load Balancing: In this activity, you will install a load balancer in front of the VM to distribute the traffic across more than one VM.
-Security Configuration: In this activity, you'll configure the load balancer and security group to work together to expose port 80 of the VM to your Home IP address.
-<br />
+
+
+
+
+
 
 
 
